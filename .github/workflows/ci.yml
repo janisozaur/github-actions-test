@@ -270,14 +270,6 @@ jobs:
             name: "Windows Latest x86", artifact: "Windows-x86.zip",
             os: ubuntu-latest
           }
-        - {
-            name: "Linux Latest x64", artifact: "Linux-x64.zip",
-            os: ubuntu-latest
-          }
-        - {
-            name: "macOS Latest x64", artifact: "macOS-x64.zip",
-            os: macos-latest
-          }
     needs: release
 
     steps:
